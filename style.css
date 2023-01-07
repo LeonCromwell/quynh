@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Inter&display=swap');
+
+
 *{
     text-decoration: none;
     list-style-type: none;
+    font-family: 'Akaya Telivigala', cursive;
 }
 
 .container{
@@ -13,9 +17,17 @@
     border-bottom: 1px solid black;
     
 }
+.container .main-page-header .logo-web{
+    margin-left: 5%;
+}
+.container .main-page-header .logo-web >h1{
+    color:  #86BA09;
+    font-size: 40px;
+}
 .container .main-page-header .menu {
     display: flex;
     justify-content: center;
+    margin-top: -30px;
 }
 .container .main-page-header .menu >ul >li{
     float: left;
@@ -23,7 +35,12 @@
 }
 .container .main-page-header .menu >ul >li >a{
     color: black;
+    font-family: 'Inter', sans-serif;
 }
-
+.container .content .image-1 img{
+    object-fit: scale-down;
+    width: 100%;
+    height: 850px;
+}
 
 
