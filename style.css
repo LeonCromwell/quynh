@@ -34,3 +34,18 @@ home{
     margin-left: 30%;
 
 }
+.home .header .header__navbar .header__navbar-list{
+    margin-top: -20px;
+}
+.home .header .icon{
+    display: flex;
+    justify-content: end;
+    margin-right: 60px;
+}
+.home .header .icon .material-symbols-outlined{
+   font-size: 30px;
+   margin-right: 20px;
+   color:black ;
+
+}
+
