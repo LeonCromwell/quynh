@@ -83,7 +83,7 @@ home{
     left: 87%;
     width: 142px;
     height: 129px;
-    z-index: 1;
+    z-index: -1;
 }
 .home .container .image-3 #chim2{
     position: absolute;
@@ -91,7 +91,7 @@ home{
     left: 53%;
     width: 416px;
     height: 249px;
-    z-index: 1;
+    z-index: -1;
 }
 .home .container .image-3 #chim3{
     position: absolute;
@@ -99,16 +99,17 @@ home{
     left: 79%;
     width: 169px;
     height: 162px;
-    z-index: 1;
+    z-index: -1;
 }
 .home .container .text1 >h2{
     font-family: inter;
     font-size: 29px;
     font-weight: 100;
+    
    
 }
-.home.container.text1{
+.home .container .image-3 .text1{
     margin-left: 60%;
-    margin-top: 750px;
-    z-index: 100;
+    
+    
 }
